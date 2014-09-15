@@ -19,34 +19,42 @@
 
 <form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
 
-Förnamn:<br />
-<input type="text" name="fnamn" id="fnamn" /> <br />
+        <fieldset>
+            <legend>Information om dig:</legend>
+    
+            Förnamn:
+            <input type="text" name="fnamn" id="fnamn" />
 
-Efternamn:<br />
-<input type="text" name="enamn" id="enamn" /> <br />
+            Efternamn:
+            <input type="text" name="enamn" id="enamn" />
+            
+            E-postadress:
+            <input type="text" name="epost" id="epost" />
 
-E-postadress:<br />
-<input type="text" name="epost" id="epost" /> <br />
+            Telefon:
+            <input type="text" name="epost" id="epost" />
+            
+            <input type="checkbox" name="favoritarstid" id="sommar" value="sommar"/>
+            <label for="sommar">Kontakta mig via mail</label>
 
-Telefon:<br />
-<input type="text" name="epost" id="epost" />
+            <input type="checkbox" name="favoritarstid" id="host" value="host"/>
+            <label for="host">Kontakta mig via telefon</label>
 
-<label for="select"><br />
-Ärende:</label><br />
+        </fieldset>
+        <fieldset>
+            <legend>Ärende:</legend>
+<label for="select">
+Ärende:</label>
 
 <select name="favoritarstid" id="favoritarstid">
 <option> Välj ärende här </option>
 <option value="var"> Synpunkter </option>
 <option value="var"> Frågor </option>
 
-Meddelande:<br />
-<textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br />
+Meddelande:
+<textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea>
 
-<input type="checkbox" name="favoritarstid" id="sommar" value="sommar"/>
-<label for="sommar">Kontakta mig via mail</label> <br />
-
-<input type="checkbox" name="favoritarstid" id="host" value="host"/>
-<label for="host">Kontakta mig via telefon</label> <br />
+        </fieldset>
 
 <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
 

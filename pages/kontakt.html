@@ -1,1 +1,53 @@
-Test
+<!doctype html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>Kontakt</title>
+        
+    </head>
+
+<h1>Kontakt</h1>
+
+<ul>
+    <li><a href="../index.html">Start</a></li>
+
+    <li><a href="laborationer.html">Laborationer</a></li>
+
+    <li><a href="presentation.html">Presentation</a></li>
+</ul>
+
+<form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+
+Förnamn:<br />
+<input type="text" name="fnamn" id="fnamn" /> <br />
+
+Efternamn:<br />
+<input type="text" name="enamn" id="enamn" /> <br />
+
+E-postadress:<br />
+<input type="text" name="epost" id="epost" /> <br />
+
+Telefon:<br />
+<input type="text" name="epost" id="epost" />
+
+<label for="select"><br />
+Ärende:</label><br />
+
+<select name="favoritarstid" id="favoritarstid">
+<option> Välj ärende här </option>
+<option value="var"> Synpunkter </option>
+<option value="var"> Frågor </option>
+
+Meddelande:<br />
+<textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br />
+
+<input type="checkbox" name="favoritarstid" id="sommar" value="sommar"/>
+<label for="sommar">Kontakta mig via mail</label> <br />
+
+<input type="checkbox" name="favoritarstid" id="host" value="host"/>
+<label for="host">Kontakta mig via telefon</label> <br />
+
+<input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+
+</form>

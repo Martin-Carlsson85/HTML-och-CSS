@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="110" rx="156" id="svg_1" cy="125" cx="128" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <path id="svg_2" d="m401,63c-135,264 -174,-31 -36,135c138,166 184,-57 184,-57c0,0 -83,-89 -83,-89c0,0 -127,-8 -127,-8c0,0 62,19 62,19z" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <path id="svg_3" d="m346.498047,370.968994l119.500092,-119.098648l119.499908,119.098648l-59.749939,0l0,119.671631l-119.5,0l0,-119.671631l-59.750061,0z" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <path id="svg_4" d="m-158.367508,602.726196l364.350006,-363.127991l364.34996,363.127991l-182.177795,0l0,364.872009l-364.344463,0l0,-364.872009l-182.177708,0z" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+ </g>
+</svg>

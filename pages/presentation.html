@@ -6,6 +6,7 @@
         <title>Presentation</title>
         
          <link rel="stylesheet" href="../css/pics/style.css" />
+        <link href="../css/pics/print.css" rel="stylesheet" type="text/css" media="print">
         
     </head>
 
@@ -29,13 +30,13 @@
         
            <ul>
             
-            <li><a href="../index.html">Start</a></li>
+            <li><a id="home" href="../index.html">Start</a></li>
             
-            <li><a href="laborationer.html">Laborationer</a></li>
+            <li><a id="lab" href="laborationer.html">Laborationer</a></li>
             
-            <li><a href="presentation.html" class="active">Presentation</a></li>
+            <li><a id="pres" href="presentation.html" class="active">Presentation</a></li>
             
-            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a id="cont" href="kontakt.html">Kontakt</a></li>
         
             </ul>
             <div class="clear"></div>
@@ -87,16 +88,21 @@
             <h2>Yrken</h2>
             Följande yrken har jag arbetat med :
            
-            <ul class="liststyle_2">
-                <li><a href="http://polisen.se/Lagar-och-regler/Ordningsvakter/Väktare">Väktare</a></li>
-                <li><a href="http://sv.wikipedia.org/wiki/Skyddsvakt">Skyddsvakt</a></li>
-                <li><a href="http://polisen.se/Lagar-och-regler/Ordningsvakter/Ordningsvakt">Ordningsvakt</a> 
-                    <ul class="liststyle"><li>frilans, jobbar ibland</li></ul></li>    
+           <div class="liststyle_2">
+           
+            <ul>
+                <li><a href="http://polisen.se/Lagar-och-regler/Ordningsvakter/Väktare">Väktare</a></li><span class="printLink">Väktare http://polisen.se/Lagar-och-regler/Ordningsvakter/Väktare</span>
+                <li><a href="http://sv.wikipedia.org/wiki/Skyddsvakt">Skyddsvakt</a></li><span class="printLink">Skyddsvakt http://sv.wikipedia.org/wiki/Skyddsvakt</span>
+                <li><a href="http://polisen.se/Lagar-och-regler/Ordningsvakter/Ordningsvakt">Ordningsvakt</a><span class="printLink">Ordningsvakt http://sv.wikipedia.org/wiki/Skyddsvakt</span>
+                    <span class="printLink2"><ul><li>frilans, jobbar ibland</ul></li></span> 
                 
-                <li><a href="http://scania.se">Scania</a> 
-                    <ul class="liststyle"><li>fortfarande anställd, tjänstledig</li></ul></li>
+                <li><a href="http://scania.se">Scania</a><span class="printLink">Scania http://scania.se</span> 
+                    <span class="printLink2"><ul><li>fortfarande anställd, tjänstledig</ul></li></span>
+                 
+            </ul>        
+            </div>
                     
-            </ul>
+          
             
             <h2>Erfarenhet</h2>
             <p>Mina erfarenheter vad det gäller programmering kretsar främst kring HTML och CSS.

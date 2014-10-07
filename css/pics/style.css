@@ -1,21 +1,14 @@
-
-
-
-
 body, html
 {
-background-color: #d0e4fe;
-width:1100px;
-margin:auto;
-font-family: "Georgia", "Arial", "sans-serif";
+    background-color: #d0e4fe;
+    width:1100px;
+    margin:auto;
+    font-family: "Georgia", "Arial", "sans-serif";
 
 }
 .logotype{
-    
-   
-    padding: 20px;
+    padding: 50px;
     position: absolute;
-   
     top: 700px;
     
 }
@@ -33,11 +26,8 @@ font-family: "Georgia", "Arial", "sans-serif";
 
 .content{
     background-color: white;
-   
     float: left;
     width: 600px;
-    
-    margin: 0px;
     border-style:solid;
     border-width:5px;
     
@@ -77,7 +67,6 @@ font-family: "Georgia", "Arial", "sans-serif";
 }
 
 .header{
-    
     background-image: url(bild_halmstad_2.jpg);
     background-repeat: no-repeat;
     background-color: #16a085;
@@ -91,7 +80,6 @@ font-family: "Georgia", "Arial", "sans-serif";
 
 }
 .footer{
-    
     text-align: center ;
     height:62px;
     background-color:#00D4F9;
@@ -112,94 +100,105 @@ font-family: "Georgia", "Arial", "sans-serif";
 }
     
 .navigation ul{
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 .navigation li {
-    padding: 5px;
-    border-bottom: 1px solid black;
-    margin: 5px;
-    
+    padding: 2px;
+    margin-top:2px;
 }
 
 .navigation li a {
     display: block;
+    padding-top: 3px;
+    border-bottom:1px solid black;
 }
 
 .active{
     background-color: lightblue;
+    padding-right:90px;
 }
 
 #home{
-background-image: url('sprite.png');
-margin-bottom:5px;
-background-position: 0px -50px;
-background-repeat: no-repeat;
-display: block;
-padding-left: 25px;
+    background-image: url('sprite.png');
+    margin-bottom:5px;
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 25px;
+
 }
 
 #home:hover{
-background-image: url('sprite.png'); 
-background-position: 0px -2px;
-background-repeat: no-repeat;
-display: block;
+    background-image: url('sprite.png'); 
+    background-position: 0px -2px;
+    background-repeat: no-repeat;
+    display: block;
+
 
 }
 
 
 #lab{
-background-image: url('sprite.png');
-margin-bottom:5px;
-background-position: 0px -145px;
-background-repeat: no-repeat;
-display: block;
-padding-left: 25px;
+    background-image: url('sprite.png');
+    margin-bottom:5px;
+    background-position: 0px -145px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 25px;
+
 }
 
 #lab:hover{
-background-image: url('sprite.png');
-background-position: 0px -97px;
-background-repeat: no-repeat;
-display: block;
+    background-image: url('sprite.png');
+    background-position: 0px -97px;
+    background-repeat: no-repeat;
+    display: block;
+
 }
 
 #pres{
-background-image: url('sprite.png');
-margin-bottom:5px;
-background-position: 0px -241px;
-background-repeat: no-repeat;
-display: block;
-padding-left: 25px;
+    background-image: url('sprite.png');
+    margin-bottom:5px;
+    background-position: 0px -241px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 25px;
+
 }
 
 #pres:hover{
-background-image: url('sprite.png');
-background-position: 0px -193px;
-background-repeat: no-repeat;
-display: block;
+    background-image: url('sprite.png');
+    background-position: 0px -193px;
+    background-repeat: no-repeat;
+    display: block;
+
 }
 
 #cont{
-background-image: url('sprite.png');
-margin-bottom:5px;
-background-position: 0px -338px;
-background-repeat: no-repeat;
-display: block;
-padding-left: 25px;
+    background-image: url('sprite.png');
+    margin-bottom:5px;
+    background-position: 0px -338px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 25px;
+
 }
 
 #cont:hover{
-background-image: url('sprite.png');
-background-position: 0px -290px;
-background-repeat: no-repeat;
-display: block;
+    background-image: url('sprite.png');
+    background-position: 0px -290px;
+    background-repeat: no-repeat;
+    display: block;
+
 }
 
-h1{	font-size:35px;
+h1{	
+    font-size:35px;
     color: black;
     text-align: center;
 }
+
 h2{	font-size:25px;}
 h3{	font-size:20px;}
 h4{	font-size:17px;}
@@ -210,18 +209,14 @@ h5{	font-size:14px;}
 fieldset {
    
     border: 5px solid black;
-    
     border-radius: 5px;
     padding: 5px;
 }
 
 fieldset legend {
-    
-    
     padding: 5px 5px ;
     font-size: 16px;
     border-radius: 5px;
-    
     margin-left: 20px;
 }
 
@@ -258,7 +253,6 @@ fieldset legend {
 #fnamn{
     border-radius: 12px;
     Color:Black;
-    
     display: block ;
     width:50%;
     
@@ -268,11 +262,7 @@ fieldset legend {
     Color:Black;
     display: block ;
     width:50%;
-    
-    
-    
-    
-    
+
 }
 
 #epost{
@@ -305,16 +295,10 @@ fieldset legend {
     
 }
 
-li a{
-    
-    
-   
-}
-
-
 a:link {
     color: blue;
     text-decoration: none;
+    
 }
 
 a:visited{
@@ -333,14 +317,15 @@ a:hover {
     text-decoration:none;
     background:#27ae60;
     color:#bdc3c7;
+    padding-right:90px;
 }
 
 
 	    
 a:active { 
 	    
-	    color:Black;
-        background:#27ae60;
+    color:Black;
+    background:#27ae60;
 
 }
 

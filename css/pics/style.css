@@ -113,6 +113,16 @@ body, html
     display: block;
     padding-top: 3px;
     border-bottom:1px solid black;
+    padding-right:90px;
+    
+}
+
+.navigation li a:hover{
+     background:#27ae60;
+}
+
+.navigation li a:active{
+    background:#27ae60;
 }
 
 .active{
@@ -318,7 +328,7 @@ a:hover {
     text-decoration:none;
     
    
-    padding-right:90px;
+    
 }
 
 
@@ -326,7 +336,7 @@ a:hover {
 a:active { 
 	    
     color:Black;
-    background:#27ae60;
+    
 
 }
 

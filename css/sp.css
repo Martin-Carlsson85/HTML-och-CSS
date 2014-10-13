@@ -14,7 +14,7 @@ body, html
 .container
 {
     
-    width:480px;
+    width:100%;
     text-align:left;
 }
 
@@ -26,7 +26,7 @@ body, html
 .content{
     background-color: white;
     float: left;
-    width: 480px;
+    width: 100%;
     border-style:solid;
     border-width:5px;
     text-align:left;
@@ -48,7 +48,7 @@ body, html
 .liststyle_3 ul li
 {
  
-    margin-right:40px;
+    
     list-style-type: none;
 }
 
@@ -78,7 +78,7 @@ body, html
     border-width:5px;
     border-style:solid;
     margin-top:10px;
-    width: 480px;
+    width: 100%;
     clear:both;
     
 
@@ -86,7 +86,7 @@ body, html
 .navigation{
     background-color: #00E55B;
     text-align:left;
-    width: 480px;
+    width: 100%;
     margin-right: 10px;
     margin-bottom:10px;
     border-width:5px;

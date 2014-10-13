@@ -64,7 +64,7 @@ body, html
 
 .vektor{
     float: left;
-    width:100%;
+    
 }
 
 .header{
@@ -356,7 +356,7 @@ a:active {
 
 .video{
     margin: 60px;
-    width:100%;
+   
     
 }
 

@@ -23,7 +23,6 @@
     border-width:5px;
     text-align:left;
     
-   
 }
 .liststyle
 {
@@ -53,9 +52,6 @@
     
     padding: 0px;
 }
-
-
-
 
 .header{
    display:none;
@@ -200,9 +196,6 @@ h4{	font-size:17px;}
 h5{	font-size:14px;}
 
 
-
-
-
 .form fieldset{
     float:left;
     text-align:left;
@@ -245,7 +238,7 @@ h5{	font-size:14px;}
     border-radius: 12px;
     Color:Black;
     display: block ;
-    width:70%;
+    width:50%;
     
 }
 #enamn{
@@ -307,17 +300,11 @@ a:focus{
 
 a:hover { 
     text-decoration:none;
-    
-   
-    
 }
 
-
-	    
 a:active { 
 	    
     color:Black;
-    
 
 }
 

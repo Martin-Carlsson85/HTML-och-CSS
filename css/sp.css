@@ -347,12 +347,17 @@ a:active {
    padding: 0px;
 }
 
-video, svg{
+video,img{
     width:100%;
-    
+}
 
+svg{
+width:100%
     
 }
+
+    
+
 
 .printLink{
     display:none;
